@@ -1,0 +1,79 @@
+
+.campaign-play{
+    #people_list {
+        padding: 10px 0;
+        margin-bottom: 10px;
+        border: 0px;
+        box-shadow: 0 4px 10px rgba(16,159,218,.15);
+        
+    }
+}
+
+
+.search-result__wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    
+
+    .btn-dark{
+        background: $dark-gray;
+        height: 40px;
+        color: #fff;
+    }
+    .btn-dark:hover{
+        border-color: $theme-color;
+    }
+
+    .search-result__image-wrapper{
+        display: flex;
+        align-items: center;
+    }
+    .search-result__image {
+        width: 80px;
+        height: 80px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        border-radius: 100%;
+        margin-bottom: 0;
+        margin-left: 10px;
+        background: #ebebeb;
+    }
+
+}
+.search-result__info{
+    p{
+        margin-bottom: 0;
+    }
+    .actor-name-with-distance{
+        margin-bottom: 0;
+        font-size: 18px;
+        font-weight: bold;
+        text-transform: capitalize;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
+    .search-result__wrapper {
+        flex-direction: column;
+        text-align: center;
+
+    }
+    .search-result__image-wrapper{
+        display: block !important;
+    }
+}
+.blacklistFilterBox{
+    background: #fff;
+    margin-top: 0px;
+    margin-bottom: 0px !important;
+}
+
+
+

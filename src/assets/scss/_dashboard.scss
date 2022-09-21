@@ -1,0 +1,26 @@
+#chart-1{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.user-statistics-dashboard{
+    .single-features {
+        
+        margin-bottom: 30px;
+
+        .features-title {
+            margin-top: 20px;
+        }
+
+        .features-number{
+            opacity: 0.8;
+        }
+    }
+
+    .card{
+        .card-header{
+            background: $dark-gray;
+            color: $white;
+            text-align: center;
+        }
+    }
+}

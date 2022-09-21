@@ -1,0 +1,59 @@
+.integration-tabs nav > .nav.nav-tabs {
+  border: none;
+  color: #fff;
+  background: #2F3D62;
+  border-radius: 0;
+}
+
+.integration-tabs nav > div a.nav-item.nav-link {
+  border: none;
+  padding: 18px 25px;
+  color: #fff;
+  background: #2F3D62;
+  border-radius: 0;
+}
+
+.integration-tabs nav > div a.nav-item.nav-link:hover {
+  border: none;
+  background: #e74c3c;
+  color: #fff;
+  border-radius: 0;
+  -webkit-transition: background 0.20s linear;
+  transition: background 0.20s linear;
+}
+
+.integration-tabs nav > div a.nav-item.nav-link:focus {
+  border: none;
+  background: #e74c3c;
+  color: #fff;
+  border-radius: 0;
+  -webkit-transition: background 0.20s linear;
+  transition: background 0.20s linear;
+}
+
+.integration-tabs nav > div a.nav-item.nav-link.active {
+  border: none;
+  padding: 18px 25px;
+  color: #fff;
+  background: #2F3D62;
+  border-radius: 0;
+}
+
+.integration-tabs nav > div a.nav-item.nav-link.active:after {
+  content: "";
+  position: relative;
+  bottom: -60px;
+  left: -10%;
+  border: 15px solid transparent;
+  border-top-color: #e74c3c;
+}
+
+.integration-tabs .tab-content {
+  background: #fdfdfd;
+  line-height: 25px;
+  border: 1px solid #ddd;
+  border-top: 5px solid #e74c3c;
+  border-bottom: 5px solid #e74c3c;
+  padding: 30px 25px;
+}
+/*# sourceMappingURL=style.css.map */

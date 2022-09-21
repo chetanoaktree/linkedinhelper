@@ -1,0 +1,46 @@
+.historyTableHeader {
+    background: $dark-gray;;
+    color: #fff;
+    padding: 10px 0px;
+}
+.historyTableBody{
+    margin-bottom: 25px;
+    .accordion{
+        background: $white;
+        margin-bottom: 5px;
+        box-shadow: 0 4px 10px rgba(16, 159, 218, 0.15);
+        .column-data-value {
+            align-items: center;
+            display: flex;
+            .para_url{
+                word-break: break-all;
+                margin-bottom: 0;
+            }
+        }
+        .history-details-toggle-button{
+            background: $dark-gray;
+            height: 30px;
+            color: $white;
+            padding: 0px 0.75rem;
+            line-height: 1rem;
+        }
+        .collapse.show{
+           
+            color: $white;
+
+            p{
+                color: $white;
+            }
+
+            pre{
+                background: rgba($dark-gray,0.9);
+                color: $white;
+            }
+        }
+    }
+}
+
+.para_url{
+    word-break: break-all;
+    margin-bottom: 0;
+}

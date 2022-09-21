@@ -1,0 +1,48 @@
+.fxt-template-animation {
+    opacity: 1;
+}
+
+.fxt-bg-color{
+    background-color: #ffffff;
+    min-height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 50px 30px 42px;
+    flex-direction: column;
+}
+
+.fxt-bg-img{
+    background-image: url(../images/login-bg.jpg);
+    // background-image: url(https://images.unsplash.com/photo-1576267423445-b2e0074d68a4);
+    min-height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background-size:cover;
+}
+@media only screen and (max-width: 767px) {
+    .fxt-bg-img{
+        min-height: unset;
+    }
+}

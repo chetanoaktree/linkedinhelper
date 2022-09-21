@@ -1,0 +1,57 @@
+#global-search-input-box {
+	max-width: 210px;
+	padding: 0 0 0 36px;
+	border-radius: .25rem
+}
+
+#global-search-input-box-search-icon-container {
+	position: absolute;
+	width: 36px;
+	height: 38px;
+	background: #ebebeb;
+	vertical-align: middle
+}
+
+#global-search-input-box-search-icon {
+	z-index: 4;
+	position: absolute;
+	vertical-align: middle;
+	padding: 10px 12px;
+	cursor: pointer;
+	color: $dark-gray;
+}
+
+#global-search-input-box-search-icon:hover {
+	opacity: .5
+}
+
+#global-search-page #global-search-input-box {
+	max-width: 100%;
+	padding: 0 0 0 36px;
+	border-radius: .25rem
+}
+
+#global-search-page #global-search-input-box-search-icon-container {
+	position: absolute;
+	width: 36px;
+	height: 38px;
+	background: #ebebeb;
+	vertical-align: middle
+}
+
+#global-search-page #global-search-input-box-search-icon {
+	z-index: 4;
+	position: absolute;
+	vertical-align: middle;
+	padding: 10px 12px;
+	cursor: pointer;
+	color: $dark-gray;
+}
+
+#global-search-page #global-search-input-box-search-icon:hover {
+	opacity: .5
+}
+
+#global-search-box-input-group {
+	width: 100%
+}

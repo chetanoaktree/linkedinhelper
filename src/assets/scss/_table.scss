@@ -1,0 +1,49 @@
+.table .thead-dark th{
+    background-image: url("../images/footer-bg.jpg");
+    text-align: center;
+ 
+}
+.table.table-bordered {
+    .thead-dark th{
+        border-color:$gray;
+    }
+    a{
+        color: $black;
+    }
+}
+.table-striped tbody tr:nth-of-type(odd){
+    background-color: rgba($dark-gray,0.2) !important;
+}
+.table-striped tbody tr:nth-of-type(even){
+    background-color: rgba(255,255,255,1) ;
+}
+.table-bordered{ 
+        box-shadow: 0 4px 10px rgba(16,159,218,.15);
+
+    .single-champaign-action{
+        text-transform: capitalize;
+        
+        .fa-pencil{
+            margin-right: 5px;
+        }
+    }
+
+
+}
+
+.single-member .number-of-members-in-campaign {
+    background: $dark-gray;
+    color: #fff !important;
+    padding: 0px 10px;
+    border-radius: 2px;
+    width: 55px;
+}
+.single-member .number-of-members-in-campaign:hover {
+    background: $theme-color;
+}
+.number-of-members-in-campaign{
+    word-break: break-all;
+}
+.linkedin-profile-url {
+    word-break: break-all;
+}

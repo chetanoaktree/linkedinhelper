@@ -1,0 +1,85 @@
+.users-list-view{
+    
+    background: white;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    box-shadow: 0 4px 10px rgba(16,159,218,.15);
+    // align-items: center;
+    padding: 15px;
+
+    .checkbox-container{
+        
+        display: flex;
+
+        align-items: center;
+        justify-content: center;
+        
+        
+        flex-grow: 0;           /* do not grow   - initial value: 0 */
+        flex-shrink: 0;         /* do not shrink - initial value: 1 */
+        flex-basis: 5%;        /* width/height  - initial value: auto */
+
+    }
+    .profile-image-container{
+
+        display: flex;
+
+        align-items: center;
+        justify-content: center;
+
+        flex-grow: 0;           /* do not grow   - initial value: 0 */
+        flex-shrink: 0;         /* do not shrink - initial value: 1 */
+        flex-basis: 10%;        /* width/height  - initial value: auto */
+
+
+        .profile-image{
+            width: 80px;
+            height: 80px;
+            border-radius: 100%;
+            border: 1px solid #ebebeb;
+        }
+
+    }
+    .username-profile-title-and-location-container{
+
+        flex-grow: 0;           /* do not grow   - initial value: 0 */
+        flex-shrink: 0;         /* do not shrink - initial value: 1 */
+        flex-basis: 35%;        /* width/height  - initial value: auto */
+
+
+        .location{
+            margin-bottom: 0;
+        }
+
+    }
+    .email-list-container{
+        flex-grow: 0;           /* do not grow   - initial value: 0 */
+        flex-shrink: 0;         /* do not shrink - initial value: 1 */
+        flex-basis: 35%;        /* width/height  - initial value: auto */
+    }
+    .get-email-container{
+
+        display: flex;
+        
+        align-items: center;
+
+        flex-grow: 0;           /* do not grow   - initial value: 0 */
+        flex-shrink: 0;         /* do not shrink - initial value: 1 */
+        flex-basis: 10%;        /* width/height  - initial value: auto */
+
+    }
+    
+
+
+}
+
+@media only screen and (max-width: 767px) {
+    .users-list-view{
+        flex-direction: column;
+    }
+
+}
+
